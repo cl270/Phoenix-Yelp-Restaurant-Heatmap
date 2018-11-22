@@ -11,6 +11,8 @@ This project was an attempt to quantify the ideal location to place a restaurant
 
 Finally, the average number of stars given by reviews of other restaurants in the area was also taken into account, representing consumer satisfaction with their choices in the area - the lower the average review, the more likely consumers would be willing to try a new option.
 
+The data were queried from a locally run SQL Server (via SQL Server Management Studio).
+
 ## Use
 
 The program gives the user the option to weight these three influencing factors. The restaurant's location is entered via a latitude longitude coordinate pair.
