@@ -30,6 +30,8 @@ namespace WindowsFormsApplication13
         private void Form1_Load(object sender, EventArgs e)
         {
             //Change server location below, and database if you changed name
+            //connectionString will vary depending on how the SQL server with the Yelp data is setup
+            //In this case, this is a local SQL server (Microsoft SQL Server management studio) running on the same machine as this C# code was run
             connectionString = "server=DESKTOP-5FNNB3C\\SQLEXPRESS;" +
                                        "Trusted_Connection=yes;" +
                                        "database=Yelp; " +
